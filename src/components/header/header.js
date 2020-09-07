@@ -15,7 +15,7 @@ const Header = ({ siteTitle, tagline, author, contacts }) => {
     <header
       className="head-main"
       style={{
-        background: `black`
+        background: `darkmagenta`
       }}
     >
       <div className="head-elements"
@@ -28,7 +28,7 @@ const Header = ({ siteTitle, tagline, author, contacts }) => {
           <Link
             to="/"
             style={{
-              color: `white`,
+              color: `mediumorchid`,
               textDecoration: `none`,
             }}
           >
