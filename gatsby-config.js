@@ -10,11 +10,10 @@ module.exports = {
     description: `A blog template for web developers that's ready to go out of the box. Feel free to modify it to your liking.`,
     author: siteConfig.author.name,
     contacts: {
-      linkedin: siteConfig.author.contacts.linkedin,
-      github: siteConfig.author.contacts.github,
-      stackoverflow: siteConfig.author.contacts.stackoverflow,
-      freecodecamp: siteConfig.author.contacts.freecodecamp,
       twitter: siteConfig.author.contacts.twitter,
+      facebook: siteConfig.author.contacts.facebook, 
+      github: "site.config.author.contacts.github",
+      email: "site.config.author.contacts.email",      
     },
     labels: siteConfig.labels,
   },
@@ -66,7 +65,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Raleway`,
+          `pangolin`,
           `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
         ]
       }
