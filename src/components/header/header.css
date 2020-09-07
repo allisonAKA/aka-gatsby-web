@@ -5,6 +5,7 @@
   top: 0;
   display: flex;
   flex-direction: column;
+  height: 90px;
 }
 
 .head-elements {
@@ -33,12 +34,30 @@
   display: none;
 }
 .head-logo {
-  font-family: "Raleway";
-  font-size: 1.75rem;
+  font-family: "Arial";
+  font-size: 2.750rem;
+  text-shadow: 0 0 5px thistle, 0 0 10px thistle,
+             0 0 20px thistle, 0 0 30px thistle,
+             0 0 40px thistle;
+}
+
+.head-link {
+  font-family: "Pangolin";
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.head-link a {
+  color: #cccccc;
+}
+
+.head-link a:hover {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 small {
-    font-family: "Raleway";
+    font-family: "Pangolin";
 }
 
 .mobile-bio-main {
